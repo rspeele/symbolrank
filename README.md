@@ -29,9 +29,5 @@ the cache of likely predictions is also three bytes long for any given
 context. That said, the concept of symbol ranking could be applied to
 any definition of symbol, such as a word, color, or sound, and any
 length of context or cache. I probably should have written this with
-generics to support -- maybe interfaces for IContext<TSymbol> and
-ICache<TSymbol>.
-
-
-
-
+generics to support -- maybe interfaces for `IContext<TSymbol>` and
+`ICache<TSymbol>`.
